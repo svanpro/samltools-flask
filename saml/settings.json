@@ -1,0 +1,20 @@
+{
+    "strict": true,
+    "debug": true,
+    
+    "sp": {
+        "entityId": "http://localhost:8000/metadata/",
+        "assertionConsumerService": {
+            "url": "http://localhost:8000/?acs",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+        }
+    },
+    "idp": {
+        "entityId": "exki9lgkgQUi1xcWE5d5",
+        "singleSignOnService": {
+            "url": "https://dev-7128377.okta.com/app/generic-saml/exki9lgkgQUi1xcWE5d5/saml2",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+        },
+        "x509cert": "AVSN_MIIDpjCCAo6gAwIBAgIGAXWIMTmCMA0GCSqGSIb3DQEBCwUAMIGTMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxFDASBgNVBAMMC2Rldi03MTI4Mzc3MRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMB4XDTIwMTEwMjA5MDEwOFoXDTMwMTEwMjA5MDIwOFowgZMxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0wCwYDVQQKDARPa3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEUMBIGA1UEAwwLZGV2LTcxMjgzNzcxHDAaBgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCJ3uyIMwv8fNSSp4Fu/UGKKN/rE+cVizM81XX3AAf3gzbxnTSRT3k+wHXR5RrolKTwMNLK8Uum0hdRrVNUdkETai63CldHam/uQVa2+PlrmMx8LBLrAGV2jTyl9rCykXIaVKQzwoWMsBKs5PuY+UPFgINpaOftkTrcKL8MvRP1YGFhD8yF32QycO+JFYM3/c1AezuovGpk8ZX7OnhkJy8Ajoaw4UVLWPh5cfCUuDLARPX46sY4W/xC7V6OPhT2W58alHc5yjD803RInSNpmzkI3DPL9AxLlXeUawkGROZXVAQw3ywSMpXvpwRVg4JRJzNoAZqEd8Blcx1mmFZdCi59AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAEy/QvGVjXhtJxwuOBww8adI2M+yl2e/bETdgYcc+WoUJJ7r53BfnovoN3pCeZvyaEnPGN83V4xrHsaW0nAiIwkMq/oqKM0deIucqu8NR/HWDNF15ImWwBra3QR92a1nUs4wbmdk0KgGt+bNOtdSbfMTY4mbAskvWNDBZ4VlxbNsBq3Z3axgUdLEk3SqDtnr7ogcUKjBu7N9H2S1aZi6prDlsDLuPHAVbIm9uMArTb31Ns3t9+1g2PCgRYIHOapoW68EmAzc/m4FYtWjsZuhE8yt1BNyeyGwMzWIrOx4RP8zQuM+IMlOHfTs1MWJqX65TE5P8U/t2QLOez2CzCtspjg="
+    }
+}
